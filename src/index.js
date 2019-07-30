@@ -1,5 +1,8 @@
-// Support for the best browser in the world /s
-import 'react-app-polyfill/stable'; 
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/stable';
+
+// canvas 2D support for IE
+import 'path2d-polyfill';
 
 import React from "react";
 import ReactDOM from "react-dom";
